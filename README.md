@@ -1,3 +1,5 @@
+# MusikXbot
+
 # Calls Music 2 — The first open-source PyTgCalls based project
 
 ## Requirements
@@ -36,7 +38,7 @@ Copy `example.env` to `.env` and fill it with your credentials.
 
 ### Heroku
 
-[Click here](https://heroku.com/deploy?template=https://github.com/callsmusic/callsmusic-2_heroku/)
+[Click here](https://heroku.com/deploy?template=https://github.com/Razer-Cynosa/MusikXbot_heroku/)
 
 ## Commands
 
