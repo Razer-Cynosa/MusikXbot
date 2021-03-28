@@ -7,24 +7,24 @@ from helpers.filters import other_filters2
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
     await message.reply_text(
-        f"""I am an open-source @CallsMusic bot, I let you play music in your group's voice chat.
+        f"""Hai! aku bot musik untuk di obrolan grub ⛓.
 
-The commands I currently support are:
+Berikut Adalah Commandnyaa:
 
-/play - play the replied audio file or YouTube video
-/pause - pause the audio stream
-/resume - resume the audio stream
-/skip - skip the current audio stream
-/stop - clear the queue and remove the userbot from the call
+/play - play reply musik file atau link youtube
+/pause - pause menjeda musik
+/resume - resume memulai kembali
+/skip - skip untuk melanjutkan lagu berikutnya
+/stop - clear muntuk berhentikan musik
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Group", url="https://t.me/callsmusicchat"
+                        "Group", url="https://t.me/caritemanataudoi"
                     ),
                     InlineKeyboardButton(
-                        "Channel", url="https://t.me/callsmusic"
+                        "⛓ Owner", url="https://t.me/aestheticboyy2"
                     )
                 ]
             ]
